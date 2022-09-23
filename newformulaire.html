@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="newformulaire.css">
 </head>
 <body>
+    <header id="image">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p id="phraseune">Thank you for taking the time to help us improve the platform</p>
+
+ <div class="boite">     
+    Name <br><br><input type="text" name="Name" placeholder="Enter your name" class="input">
 <form action="#"><br>
-        <img src="jeuneformulaire.jpeg">
-    Name <input type="text" name="Name" placeholder="Enter your name" class="input">
+    Email <br><br><input type="text" name="Email" placeholder="Enter your email" class="input">
 </form><br>
+<br>
 <form action="#">
-    Email <input type="text" name="Email" placeholder="Enter your email" class="input">
-</form><br>
-<form action="#">
-    Age (optional) <input type="text" name="Age (optional)" placeholder="Age" class="input">
-</form>
-<form action="#"></form> option best describes your current role?<select name="Métier">
-    <option value="Select current role">Select current role</option>
-</form>
- </select><br>
-<form action="#">
+    Age (optional) <br><br><input type="text" name="Age (optional)" placeholder="Age" class="input"><br>
+    <br>
+option best describes your current role?<br><br>
+<select class="current"name="Métier">
+    <option  value="Select current role">Select current role</option>
+ </select>
     <p>Would recommend freeCodeCamp to a friend?</p>
     <input type="radio" name="Definitely" id="Definitely" value="Definitely">
     <label for="Definitely">Definitely</label><br>
@@ -30,9 +32,7 @@
     <label for="Maybe">Maybe</label><br>
     <input type="radio" name="Definitely" id="Notsure" value="Not sure">
     <label for="Notsure">Not sure</label>
-</form>
-<form action="#">
-    <p>What would you like to see improved? (Check all that apply)</p><br>
+    <p>What would you like to see improved? (Check all that apply)</p>
     <input type="checkbox" name="Front-end Projects" id="Front-endProjects" value="Front-endProjects">
     <label for="Front-endProjects">Front-end Projects</label><br>
     <input type="checkbox" name="Back-end Projects" id="Back-endProjects" value="Back-end Projects">
@@ -56,9 +56,12 @@
 <input type="checkbox" name="Additional Courses" id="AdditionalCourses" value="Additional Courses">
 <label for="AdditionalCourses">Additional Courses</label><br>
 <p>Any comments or suggestions?</p>
-<textarea name="Enteryourcommenthere" id="Enteryourcommenthere" cols="100" rows="10">Enter your comment here...</textarea><br>
-<input type="submit" value="Submit">
-</img>
+<textarea name="Enteryourcommenthere" id="Enteryourcommenthere" cols="60" rows="10">Enter your comment here...</textarea><br>
+<button>submit
+
+</button>
 </form>
+</div>  
+</header>
 </body>
 </html>
